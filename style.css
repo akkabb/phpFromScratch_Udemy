@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --fontFam: Georgia, 'Times New Roman', Times, serif;
+    --fontSz: 1.5rem;
+    --bg_headings: #ffebcd7d;
+    --bg_footer: #ece6dd;
+    --bg_main_homepage: #fefcfc;
+}
+body{
+    font-size: var(--fontSz);
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+}
+main{
+    background: var(--bg_main_homepage);
+    padding-left: 5em;
+}
+.headings_homepage{
+    text-align: center;
+    background-color: var(--bg_headings);
+    padding: 1em 0;
+}
+.qMark{
+    color: aqua;
+    font-size: rem;
+    line-height: 0;
+}
+blockquote{
+    padding: 3em;
+    background: azure;
+    margin: 1em auto;
+    width: 50%;
+    color: dodgerblue;
+    border-left: 1em solid deepskyblue;
+    border-right: 1em solid deepskyblue;
+
+    border-radius: 1em;
+}
+.course_title_link{
+    text-decoration: none;
+    transition: all 0.5s;
+
+}
+.course_title_link :hover{
+    cursor: pointer;
+}
+
+/***********************************************
+
+
+***********************************************/
+footer{
+    color: #7e4c00;
+    background: var(--bg_footer);
+    padding: 2em;
+    text-align: center;
+    text-shadow: 4px 1px 9px #56380a;
+}
